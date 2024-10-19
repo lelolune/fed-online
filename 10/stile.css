@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    background-color: #00A1C6;
+    background: rgba(0, 161, 198, 0.05);
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+main{
+    width: 65%;
+    margin: 0 auto;
+    padding: 142px 0 128px;
+}
+.main-text-strong{
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #2d3640;
+}
+.main-text{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;  /* 167% */
+    letter-spacing: -0.5px;
+    color: #2d3640;
+    font-style: normal;
+}
+.sub-title-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #2b292d;
+    width: 695px;
+    margin-bottom: 50px;
+    font-style: normal;
+}
+.user-card{
+    padding: 58px 0 122px;
+    width: 23%;
+    min-width: 200px;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card-row .user-card:last-child{
+    margin-right: 0;
+}
+.user-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 3px solid #eff3f8;
+}
+.user-card h4{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2d3640;
+    font-style: normal;
+    line-height: normal;
+    margin: 34px 0 4px;
+    font-family: Catamaran;
+}
+.user-card p{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Catamaran;
+    color: #4b4f52;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+.skill-item{
+    width: 50px;
+    height: 50px;
+    padding: 10px 0 0 0;
+    display: inline-block;
+    margin-right: 15px;
+}
+.skill .skill-item:last-child{
+    margin-right: 0;
+}
