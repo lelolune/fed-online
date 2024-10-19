@@ -35,7 +35,7 @@ main{
     font-size: 20px;
     line-height: 200%;
     color: #2b292d;
-    width: 695px;
+    max-width: 695px;
     margin-bottom: 50px;
     font-style: normal;
 }
@@ -55,12 +55,16 @@ main{
     margin-right: 0;
 }
 .user-photo{
-    width: 120px;
-    height: 120px;
+    max-width: 120px;
+    min-height: 120px;
     border-radius: 100%;
     overflow: hidden;
     margin: 0 auto;
     border: 3px solid #eff3f8;
+}
+.user-photo{
+    width: 100%;
+    height: auto;
 }
 .user-card h4{
     font-weight: 700;
