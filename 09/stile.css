@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.dia-block{
+        width: 512px;
+        height: 512px;
+        background-color: #000;
+      
+}
+.dia-text{
+    width: 310px;
+    height: 182px;
+    fill: none;
+    margin: 128px 101px 0;
+}
+.rectangle-blue{
+    border-radius: 6px 6px 0 0;
+    width: 80px;
+    height: 30px;
+    background: #2137FC;
+    /* margin: 343px 216px 0; */
+}
+.rectangle-yellow{
+    border-radius: 0 0 6px 6px;
+    width: 80px;
+    height: 30px;
+    background: #FFCE22;
+    /* margin: 0 216px 109px; */
+}
+.prapor{
+    margin: 29px 216px 109px;
+}
+.speechify-square{
+    width: 512px;
+    height: 512px;
+    background-color: #FFCE22;
+}
+.blue-element-square{
+    width: 512px;
+    height: 272px;
+    fill: none;
+    /* color: #2137FC; */
+    fill: #2137FC;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    z-index: 3;
+
+}
+.square-glyph{
+    /* margin: 144px 57px 55px 0; */
+    width: 400px;
+    height: 228px;
+    position: relative;
+    z-index: 2;
+    bottom: 133px;
+    left: 55px;
+}
+.speechify-circle{
+    border-bottom: 2px solid #2137fc;
+    border-top: 2px solid #2137fc;
+    width: 512px;
+    height: 512px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.45);
+    background: #fff;
+    box-sizing: border-box;
+}
+.speechify-circle{
+    width: 512px;
+    height: 512px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circle{
+        width: 444px;
+        height: 444px;
+        background: #ffce22;;
+        border-radius: 50%;
+        z-index: 2;
+        position: absolute;
+}
+.blue-circle{
+    width: 444px;
+    height: 234px;
+    fill: #2137FC;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    z-index: 3;
+    position: absolute;
+    bottom: 244px;
+}
+.glyph-circle{
+    width: 358px;
+    height: 204px;
+    position: absolute;
+    top: 249px;
+    left: 54px;
+    z-index: 4;
+}
+
+.first-block{
+    position: absolute;
+    z-index: 2;
+}
+.second-block{
+    position: absolute;
+    left: 441px;
+    top: 395px;
+    z-index: 3;
+}
+.third-block{
+    position: absolute;
+    left: 856px;
+    top: 811px;
+    z-index: 1;
+}
