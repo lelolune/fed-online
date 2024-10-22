@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-size: 100%;
+    background-image: url(img/bg.png);
+    font-size: 24px;
+    position: relative;
+    font-style: normal;
+}
+.big-size-container{
+    width: 96%;
+    margin: 0 auto;
+    padding: 42px 0 50px 0;
+}
+/* .big-size-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* header{
+    padding: 42px 0;
+} */
+.head-container{
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 74px;
+
+}
+.left-group{
+    display: flex;
+    align-items: center;
+}
+.right-group{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 156px;
+    height: 48px;
+    margin-right: 82px;
+}
+.date{
+    font-weight: 500;
+    font-size: 24px;
+    color: #c8c8c8;
+    text-decoration: none;
+    
+}
+.date::before{
+    content: "";
+    width: 3px;
+    height: 28px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 64px;
+    margin: 0 0 0 -26px;
+}
+/* .input-form{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #000;
+    border: none;
+    padding: 0 16px;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+} */
+.search-butt{
+    border: none;
+    /* width: 43px;
+    height: 43px; */
+    background-color: transparent;
+    border-radius: 100%;
+    margin-right: 45px;
+}
+.fa-magnifying-glass{
+    color: #fff;
+    font-size: 43px;
+}
+.fa-magnifying-glass:active{
+    color: #D40D1F;
+}
+/* main */
+.container{
+    position: relative;
+    padding: 73px 0 0 0;
+    width: 57%;
+}
+.content{
+    max-width: 946px;
+    margin: 0 auto;
+    position: absolute;
+
+}
+.genre-container {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+}
+.genre {
+    padding: 0 10px;
+}
+.separator {
+    color: #fff;
+}
+h1{
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 26px 0 34px 0;
+}
+.about-film{
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.span-about-film{
+    font-weight: 400;
+    font-size: 29px;
+    color: #a7a6a6;
+    margin-right: 30px;
+}
+.span-about-film strong{
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+.span-about-film:last-child{
+    margin-right: 0;
+}
+.about-film-annotation{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142%;
+    color: #a7a6a6;
+    width:53%;
+    min-height: 130px;
+}
+.fa-star{
+    color: #FFEA2B;
+    margin-right: 10px;
+}
+.fa-regular{
+    color: #fff;
+}
+.fa-star:last-child{
+    margin-right: 0;
+}
+.tap-buttons{
+    display: inline-block;
+    /* align-items: start; */
+    justify-content: space-between;
+    margin-top: 47px;
+    font-size: 0;
+}
+/* .botton-red .botton-wight{
+    display: flex;
+    align-items: center;
+} */
+.botton-red{
+    border-radius: 10px;
+    width: 272px;
+    height: 64px;
+    background-color: #d40d1f;
+    border: none;
+    margin-right: 104px;
+}
+.botton-wight{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 271px;
+    height: 64px;
+    background-color: transparent;
+}
+.button-text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 142%;
+    color: #fff;
+    text-align: center;
+}
+.fa-circle-play{
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    margin-left: 8px;
+}
+/* footer */
+/* .footer-content{
+    padding: 0 0 50px 0;
+} */
+.popular{
+    display: flex;
+    font-size: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+h4{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 145%;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.fa-circle-chevron-left, .fa-circle-chevron-right{
+    color: #FFF;
+    font-size: 41px;
+}
+.fa-circle-chevron-left{
+    margin-right: 24px;
+    /* color: #FFF; */
+}
+.popular-films{
+    display: flex;
+    margin-bottom: 50px;
+}
+.film-img{
+    margin-right: 50px;
+}
+.film-img:last-child{
+    margin: 0;
+}
