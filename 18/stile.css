@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    background-color: #F8FAF8;
+    /* background-image: url(img/Rectangle\ 4.png); */
+}
+header {
+    padding: 4vh 8.3vw 3.5vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.header-content{
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    /* height: 74px; */
+}
+.heder-main-click{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #bc436a;
+}
+
+.click-tips{
+    margin-right: 2.5rem;
+    font-weight: 400;
+    color: #767;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.book-button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #386e41;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 6.375rem;
+    height:2.375rem;
+
+}
+.click-tips:hover{
+    color: #bc436a;
+    font-weight: 900;
+}
+.book-button:hover{
+    background-color: #bc436a;
+}
+
+/* main */
+.main-container{
+    padding: 20.5vh 8.3vw 16.6vh;
+}
+.text-content{
+    width: 32.9rem;
+}
+.text-content h1 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.highlight {
+    color: #BC436A;
+}
+
+.text-content p {
+    margin-top: 1.38rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #7a7a7a;
+}
+.tap-buttons{
+    display: inline-block;
+}
+.search{
+    margin-top: 13.4rem;
+    margin-bottom: 3.2rem;
+    background-color: transparent;
+    border: none;
+    /* display: inline-block; */
+}
+.search-label{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #767676;
+    margin-right: 24px;
+    text-align: center;
+    /* width: 18vw; */
+}
+.fa-chevron-right{
+    font-size: 1.25rem;
+    text-align: center;
+    color: #776677;
+}
+.search:hover{
+    color: #bc436a;
+}
+
+
+/* information block */
+.inf-search{
+    width: 83.333vw;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #386e41;
+    /* position: relative;
+    display: flex;
+    justify-content: center; */
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.search-box{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.search-inf-box{
+    /* width: 21.083vw; */
+    height: 33px;
+    margin-right: 4.6rem;
+    text-align: center;
+    padding: 8px 21px;
+}
+/* .search-inf-box::after{
+    
+    color: #fff;
+    width: 253px;
+    height: 1px;
+    position: absolute;
+    margin: 0 50%;
+    bottom: -16px;
+} */
+.inf-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 166px;
+}
+.inf-text::after{
+    content: "";
+    color: #fff;
+    width: 253px;
+    height: 1px;
+    position: absolute;
+    margin: 0 50%;
+    bottom: -16px;
+}
+.fa-chevron-down{
+    margin-right: 10px;
+    color: #fff;
+}
+.search-button{
+    border-radius: 4px;
+    padding: 8px 21px;
+    width: 145px;
+    height: 41px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.11);
+    background: #bc436a;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.search-inf-box:first-child{
+    margin-left: 2.4rem;
+}
+
+/* See Destinations */
+.see-d{
+    box-sizing: border-box;
+    /* display: flex;
+  justify-content: center; */
+}
+.see-destinations {
+    font-weight: 400;
+    font-size: 18px;
+    color: #767676;
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+.fa-angles-down{
+    display: flex;
+    justify-content: center;
+    color: #767676;
+    font-size: 18px;
+    margin-top: 8px;
+}
