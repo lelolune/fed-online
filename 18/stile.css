@@ -10,11 +10,25 @@ body {
     background-color: #F8FAF8;
     /* background-image: url(img/Rectangle\ 4.png); */
 }
+.phone-photo{
+    background-image: url(img/Image1.png);
+    background-position: center;
+    background-size: cover;
+
+    width: 50vw;
+    height: 50vw;
+    max-width: 70vh;
+    max-height: 70vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -5vw;
+    z-index: -1;
+    margin-top: 100px;
+}
+
 header {
     padding: 4vh 8.3vw 3.5vh;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
 }
 .header-content{
     margin: 0 auto;
