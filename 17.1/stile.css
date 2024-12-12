@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    width: 1512px;
+    padding: 40px 30px 30px 30px;
+}
+header{
+    
+    width: 100%;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav-pages {
+    list-style: none;
+    display: flex;
+}
+.desktop-nav{
+    display: flex;
+    align-items: center;
+}
+.desktop-nav a{
+    margin-right: 46px;
+}
+.desktop-nav a:last-child{
+    margin-right: 50px;
+}
+.ham-button{
+    display: none;
+}
+
+.search-glass{
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+    margin-right: 21px;
+}
+.shopp-bag{
+    background-color: transparent;
+    border: none;
+    font-size: 21px;
+}
+.header-txt{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: center;
+    color: #000;
+}
+.shoppi-button{
+    width: 163px;
+    height: 42px;
+    background: #000;
+}
+.shoppi-button-text{
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.shop-now-section {
+    text-align: left;
+    display: flex;
+}
+.flight-section{
+    margin-top: 270px;
+    width: 300px;
+}
+.desctop-page {
+    width: 1060px;
+    margin-left: 74px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: -0.05em;
+    color: #000;
+    margin-bottom: 16px;
+}
+p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    margin: 0 0 34px;
+}
+.shopp-now{
+    border-radius: 15px;
+    width: 195px;
+    height: 50px;
+    background: #000;
+}
+@media (max-width: 600px) {
+    body {
+      padding:30px 24px 80px;; 
+    }
+    .desctop-page{
+        display: none;
+    }
+    .ham-button{
+        background-color: transparent;
+        border: none;
+        font-size: 21px;
+        margin-right: 60px;
+        color: #000;
+    }
+
+    .phone-img{
+        background-size: 100%;
+        background-image: url(img/Group\ 5.svg);
+        /* width: 450px;
+        height: 385px; */
+        padding: 0;
+        align-items: center;
+    }
+    .desktop-nav{
+        display: none;
+    }
+  
+    h1 {
+      font-size: 24px; 
+    }
+  
+    h2 {
+      font-size: 18px; 
+    }
+  
+    button {
+      font-size: 14px; 
+      padding: 10px 20px;
+    }
+  }
